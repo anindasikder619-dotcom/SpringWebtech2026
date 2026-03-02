@@ -1,0 +1,48 @@
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Name */
+h1 {
+    text-align: center;
+    color: #4e73df;
+}
+
+/* Section Headings */
+h2 {
+    border-bottom: 2px solid #4e73df;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Skills List */
+ul {
+    list-style-type: square;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #1cc88a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e74a3b;
+}
